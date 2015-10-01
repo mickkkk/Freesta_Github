@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F59D2B2F1BBD6A8200F78C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D2B2E1BBD6A8200F78C62 /* AppDelegate.swift */; };
+		F59D2B321BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F59D2B301BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodeld */; };
+		F59D2B341BBD6A8200F78C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D2B331BBD6A8200F78C62 /* ViewController.swift */; };
+		F59D2B371BBD6A8200F78C62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F59D2B351BBD6A8200F78C62 /* Main.storyboard */; };
+		F59D2B391BBD6A8300F78C62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59D2B381BBD6A8300F78C62 /* Images.xcassets */; };
+		F59D2B3C1BBD6A8300F78C62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59D2B3A1BBD6A8300F78C62 /* LaunchScreen.xib */; };
+		F59D2B481BBD6A8300F78C62 /* SexlessInnkeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D2B471BBD6A8300F78C62 /* SexlessInnkeeperTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F59D2B421BBD6A8300F78C62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F59D2B211BBD6A8200F78C62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F59D2B281BBD6A8200F78C62;
+			remoteInfo = SexlessInnkeeper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F59D2B291BBD6A8200F78C62 /* SexlessInnkeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SexlessInnkeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59D2B2D1BBD6A8200F78C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59D2B2E1BBD6A8200F78C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F59D2B311BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SexlessInnkeeper.xcdatamodel; sourceTree = "<group>"; };
+		F59D2B331BBD6A8200F78C62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F59D2B361BBD6A8200F78C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F59D2B381BBD6A8300F78C62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F59D2B3B1BBD6A8300F78C62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F59D2B411BBD6A8300F78C62 /* SexlessInnkeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SexlessInnkeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F59D2B461BBD6A8300F78C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F59D2B471BBD6A8300F78C62 /* SexlessInnkeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexlessInnkeeperTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F59D2B261BBD6A8200F78C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59D2B3E1BBD6A8300F78C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F59D2B201BBD6A8200F78C62 = {
+			isa = PBXGroup;
+			children = (
+				F59D2B2B1BBD6A8200F78C62 /* SexlessInnkeeper */,
+				F59D2B441BBD6A8300F78C62 /* SexlessInnkeeperTests */,
+				F59D2B2A1BBD6A8200F78C62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F59D2B2A1BBD6A8200F78C62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F59D2B291BBD6A8200F78C62 /* SexlessInnkeeper.app */,
+				F59D2B411BBD6A8300F78C62 /* SexlessInnkeeperTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F59D2B2B1BBD6A8200F78C62 /* SexlessInnkeeper */ = {
+			isa = PBXGroup;
+			children = (
+				F59D2B2E1BBD6A8200F78C62 /* AppDelegate.swift */,
+				F59D2B331BBD6A8200F78C62 /* ViewController.swift */,
+				F59D2B351BBD6A8200F78C62 /* Main.storyboard */,
+				F59D2B381BBD6A8300F78C62 /* Images.xcassets */,
+				F59D2B3A1BBD6A8300F78C62 /* LaunchScreen.xib */,
+				F59D2B301BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodeld */,
+				F59D2B2C1BBD6A8200F78C62 /* Supporting Files */,
+			);
+			path = SexlessInnkeeper;
+			sourceTree = "<group>";
+		};
+		F59D2B2C1BBD6A8200F78C62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F59D2B2D1BBD6A8200F78C62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F59D2B441BBD6A8300F78C62 /* SexlessInnkeeperTests */ = {
+			isa = PBXGroup;
+			children = (
+				F59D2B471BBD6A8300F78C62 /* SexlessInnkeeperTests.swift */,
+				F59D2B451BBD6A8300F78C62 /* Supporting Files */,
+			);
+			path = SexlessInnkeeperTests;
+			sourceTree = "<group>";
+		};
+		F59D2B451BBD6A8300F78C62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F59D2B461BBD6A8300F78C62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F59D2B281BBD6A8200F78C62 /* SexlessInnkeeper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59D2B4B1BBD6A8300F78C62 /* Build configuration list for PBXNativeTarget "SexlessInnkeeper" */;
+			buildPhases = (
+				F59D2B251BBD6A8200F78C62 /* Sources */,
+				F59D2B261BBD6A8200F78C62 /* Frameworks */,
+				F59D2B271BBD6A8200F78C62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SexlessInnkeeper;
+			productName = SexlessInnkeeper;
+			productReference = F59D2B291BBD6A8200F78C62 /* SexlessInnkeeper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F59D2B401BBD6A8300F78C62 /* SexlessInnkeeperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F59D2B4E1BBD6A8300F78C62 /* Build configuration list for PBXNativeTarget "SexlessInnkeeperTests" */;
+			buildPhases = (
+				F59D2B3D1BBD6A8300F78C62 /* Sources */,
+				F59D2B3E1BBD6A8300F78C62 /* Frameworks */,
+				F59D2B3F1BBD6A8300F78C62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F59D2B431BBD6A8300F78C62 /* PBXTargetDependency */,
+			);
+			name = SexlessInnkeeperTests;
+			productName = SexlessInnkeeperTests;
+			productReference = F59D2B411BBD6A8300F78C62 /* SexlessInnkeeperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F59D2B211BBD6A8200F78C62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Fontys;
+				TargetAttributes = {
+					F59D2B281BBD6A8200F78C62 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F59D2B401BBD6A8300F78C62 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F59D2B281BBD6A8200F78C62;
+					};
+				};
+			};
+			buildConfigurationList = F59D2B241BBD6A8200F78C62 /* Build configuration list for PBXProject "SexlessInnkeeper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F59D2B201BBD6A8200F78C62;
+			productRefGroup = F59D2B2A1BBD6A8200F78C62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F59D2B281BBD6A8200F78C62 /* SexlessInnkeeper */,
+				F59D2B401BBD6A8300F78C62 /* SexlessInnkeeperTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F59D2B271BBD6A8200F78C62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59D2B371BBD6A8200F78C62 /* Main.storyboard in Resources */,
+				F59D2B3C1BBD6A8300F78C62 /* LaunchScreen.xib in Resources */,
+				F59D2B391BBD6A8300F78C62 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59D2B3F1BBD6A8300F78C62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F59D2B251BBD6A8200F78C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59D2B341BBD6A8200F78C62 /* ViewController.swift in Sources */,
+				F59D2B2F1BBD6A8200F78C62 /* AppDelegate.swift in Sources */,
+				F59D2B321BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F59D2B3D1BBD6A8300F78C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F59D2B481BBD6A8300F78C62 /* SexlessInnkeeperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F59D2B431BBD6A8300F78C62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F59D2B281BBD6A8200F78C62 /* SexlessInnkeeper */;
+			targetProxy = F59D2B421BBD6A8300F78C62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F59D2B351BBD6A8200F78C62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59D2B361BBD6A8200F78C62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F59D2B3A1BBD6A8300F78C62 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F59D2B3B1BBD6A8300F78C62 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F59D2B491BBD6A8300F78C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F59D2B4A1BBD6A8300F78C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F59D2B4C1BBD6A8300F78C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SexlessInnkeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F59D2B4D1BBD6A8300F78C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SexlessInnkeeper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F59D2B4F1BBD6A8300F78C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SexlessInnkeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SexlessInnkeeper.app/SexlessInnkeeper";
+			};
+			name = Debug;
+		};
+		F59D2B501BBD6A8300F78C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SexlessInnkeeperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SexlessInnkeeper.app/SexlessInnkeeper";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F59D2B241BBD6A8200F78C62 /* Build configuration list for PBXProject "SexlessInnkeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59D2B491BBD6A8300F78C62 /* Debug */,
+				F59D2B4A1BBD6A8300F78C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F59D2B4B1BBD6A8300F78C62 /* Build configuration list for PBXNativeTarget "SexlessInnkeeper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59D2B4C1BBD6A8300F78C62 /* Debug */,
+				F59D2B4D1BBD6A8300F78C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F59D2B4E1BBD6A8300F78C62 /* Build configuration list for PBXNativeTarget "SexlessInnkeeperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F59D2B4F1BBD6A8300F78C62 /* Debug */,
+				F59D2B501BBD6A8300F78C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F59D2B301BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F59D2B311BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodel */,
+			);
+			currentVersion = F59D2B311BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodel */;
+			path = SexlessInnkeeper.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F59D2B211BBD6A8200F78C62 /* Project object */;
+}
