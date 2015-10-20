@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F54CD48F1BBE6F2B00166426 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CD48E1BBE6F2B00166426 /* Account.swift */; };
+		F54CD4911BBE6F4200166426 /* Beoordeling.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CD4901BBE6F4200166426 /* Beoordeling.swift */; };
+		F54CD4931BBE6F5800166426 /* Slaapplek.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CD4921BBE6F5800166426 /* Slaapplek.swift */; };
+		F54CD4951BBE827D00166426 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CD4941BBE827D00166426 /* LoginViewController.swift */; };
+		F54CD4971BBE840800166426 /* RegistreerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CD4961BBE840800166426 /* RegistreerViewController.swift */; };
+		F54CD4991BBE88FB00166426 /* BeoordelingSlaapplek.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CD4981BBE88FB00166426 /* BeoordelingSlaapplek.swift */; };
+		F54CD49B1BBE946400166426 /* BeoordelingAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54CD49A1BBE946400166426 /* BeoordelingAccount.swift */; };
+		F59420241BD0E4CF00E7E3B3 /* AchtergrondLogin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F59420231BD0E4CF00E7E3B3 /* AchtergrondLogin.jpg */; };
+		F59420261BD0F43D00E7E3B3 /* fblogoDEF.png in Resources */ = {isa = PBXBuildFile; fileRef = F59420251BD0F43D00E7E3B3 /* fblogoDEF.png */; };
 		F59D2B2F1BBD6A8200F78C62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D2B2E1BBD6A8200F78C62 /* AppDelegate.swift */; };
 		F59D2B321BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F59D2B301BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodeld */; };
 		F59D2B341BBD6A8200F78C62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D2B331BBD6A8200F78C62 /* ViewController.swift */; };
@@ -14,6 +23,9 @@
 		F59D2B391BBD6A8300F78C62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F59D2B381BBD6A8300F78C62 /* Images.xcassets */; };
 		F59D2B3C1BBD6A8300F78C62 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F59D2B3A1BBD6A8300F78C62 /* LaunchScreen.xib */; };
 		F59D2B481BBD6A8300F78C62 /* SexlessInnkeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D2B471BBD6A8300F78C62 /* SexlessInnkeeperTests.swift */; };
+		F5C1C0031BC6B9EE00BC0781 /* ZoekSlaapplekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C1C0021BC6B9EE00BC0781 /* ZoekSlaapplekViewController.swift */; };
+		F5C1C0091BC6BF3D00BC0781 /* PlaatsAanbodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C1C0081BC6BF3D00BC0781 /* PlaatsAanbodViewController.swift */; };
+		F5FB2A0D1BCEBB9500B7C20C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB2A0C1BCEBB9500B7C20C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F54CD48E1BBE6F2B00166426 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		F54CD4901BBE6F4200166426 /* Beoordeling.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beoordeling.swift; sourceTree = "<group>"; };
+		F54CD4921BBE6F5800166426 /* Slaapplek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Slaapplek.swift; sourceTree = "<group>"; };
+		F54CD4941BBE827D00166426 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F54CD4961BBE840800166426 /* RegistreerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistreerViewController.swift; sourceTree = "<group>"; };
+		F54CD4981BBE88FB00166426 /* BeoordelingSlaapplek.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeoordelingSlaapplek.swift; sourceTree = "<group>"; };
+		F54CD49A1BBE946400166426 /* BeoordelingAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeoordelingAccount.swift; sourceTree = "<group>"; };
+		F59420231BD0E4CF00E7E3B3 /* AchtergrondLogin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AchtergrondLogin.jpg; sourceTree = "<group>"; };
+		F59420251BD0F43D00E7E3B3 /* fblogoDEF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fblogoDEF.png; sourceTree = "<group>"; };
 		F59D2B291BBD6A8200F78C62 /* SexlessInnkeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SexlessInnkeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59D2B2D1BBD6A8200F78C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F59D2B2E1BBD6A8200F78C62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +59,9 @@
 		F59D2B411BBD6A8300F78C62 /* SexlessInnkeeperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SexlessInnkeeperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F59D2B461BBD6A8300F78C62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F59D2B471BBD6A8300F78C62 /* SexlessInnkeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexlessInnkeeperTests.swift; sourceTree = "<group>"; };
+		F5C1C0021BC6B9EE00BC0781 /* ZoekSlaapplekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoekSlaapplekViewController.swift; sourceTree = "<group>"; };
+		F5C1C0081BC6BF3D00BC0781 /* PlaatsAanbodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaatsAanbodViewController.swift; sourceTree = "<group>"; };
+		F5FB2A0C1BCEBB9500B7C20C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB2A0D1BCEBB9500B7C20C /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 		F59D2B201BBD6A8200F78C62 = {
 			isa = PBXGroup;
 			children = (
+				F5FB2A0C1BCEBB9500B7C20C /* MapKit.framework */,
 				F59D2B2B1BBD6A8200F78C62 /* SexlessInnkeeper */,
 				F59D2B441BBD6A8300F78C62 /* SexlessInnkeeperTests */,
 				F59D2B2A1BBD6A8200F78C62 /* Products */,
@@ -86,6 +112,15 @@
 				F59D2B3A1BBD6A8300F78C62 /* LaunchScreen.xib */,
 				F59D2B301BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodeld */,
 				F59D2B2C1BBD6A8200F78C62 /* Supporting Files */,
+				F54CD48E1BBE6F2B00166426 /* Account.swift */,
+				F54CD4901BBE6F4200166426 /* Beoordeling.swift */,
+				F54CD4921BBE6F5800166426 /* Slaapplek.swift */,
+				F54CD4941BBE827D00166426 /* LoginViewController.swift */,
+				F54CD4961BBE840800166426 /* RegistreerViewController.swift */,
+				F54CD4981BBE88FB00166426 /* BeoordelingSlaapplek.swift */,
+				F54CD49A1BBE946400166426 /* BeoordelingAccount.swift */,
+				F5C1C0021BC6B9EE00BC0781 /* ZoekSlaapplekViewController.swift */,
+				F5C1C0081BC6BF3D00BC0781 /* PlaatsAanbodViewController.swift */,
 			);
 			path = SexlessInnkeeper;
 			sourceTree = "<group>";
@@ -93,6 +128,7 @@
 		F59D2B2C1BBD6A8200F78C62 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F5FB2A091BCEA1CC00B7C20C /* Afbeeldingen */,
 				F59D2B2D1BBD6A8200F78C62 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -113,6 +149,15 @@
 				F59D2B461BBD6A8300F78C62 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5FB2A091BCEA1CC00B7C20C /* Afbeeldingen */ = {
+			isa = PBXGroup;
+			children = (
+				F59420251BD0F43D00E7E3B3 /* fblogoDEF.png */,
+				F59420231BD0E4CF00E7E3B3 /* AchtergrondLogin.jpg */,
+			);
+			path = Afbeeldingen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +242,8 @@
 			files = (
 				F59D2B371BBD6A8200F78C62 /* Main.storyboard in Resources */,
 				F59D2B3C1BBD6A8300F78C62 /* LaunchScreen.xib in Resources */,
+				F59420261BD0F43D00E7E3B3 /* fblogoDEF.png in Resources */,
+				F59420241BD0E4CF00E7E3B3 /* AchtergrondLogin.jpg in Resources */,
 				F59D2B391BBD6A8300F78C62 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,9 +262,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5C1C0091BC6BF3D00BC0781 /* PlaatsAanbodViewController.swift in Sources */,
+				F54CD4951BBE827D00166426 /* LoginViewController.swift in Sources */,
 				F59D2B341BBD6A8200F78C62 /* ViewController.swift in Sources */,
+				F5C1C0031BC6B9EE00BC0781 /* ZoekSlaapplekViewController.swift in Sources */,
+				F54CD4911BBE6F4200166426 /* Beoordeling.swift in Sources */,
+				F54CD48F1BBE6F2B00166426 /* Account.swift in Sources */,
+				F54CD4971BBE840800166426 /* RegistreerViewController.swift in Sources */,
 				F59D2B2F1BBD6A8200F78C62 /* AppDelegate.swift in Sources */,
+				F54CD49B1BBE946400166426 /* BeoordelingAccount.swift in Sources */,
 				F59D2B321BBD6A8200F78C62 /* SexlessInnkeeper.xcdatamodeld in Sources */,
+				F54CD4931BBE6F5800166426 /* Slaapplek.swift in Sources */,
+				F54CD4991BBE88FB00166426 /* BeoordelingSlaapplek.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +465,7 @@
 				F59D2B4D1BBD6A8300F78C62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F59D2B4E1BBD6A8300F78C62 /* Build configuration list for PBXNativeTarget "SexlessInnkeeperTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +474,7 @@
 				F59D2B501BBD6A8300F78C62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
