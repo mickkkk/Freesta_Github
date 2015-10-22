@@ -42,13 +42,13 @@ class ZoekSlaapplekViewController: UIViewController, MKMapViewDelegate, CLLocati
         
         //var locationFontys = CLLocationCoordinate2DMake(51.45169,5.48160)
         
-        var locationKamer1 = CLLocationCoordinate2DMake(51.44963,5.47972)
+        let locationKamer1 = CLLocationCoordinate2DMake(51.44963,5.47972)
         
-        var locationKamer2 = CLLocationCoordinate2DMake(51.45756, 5.47199)
+        let locationKamer2 = CLLocationCoordinate2DMake(51.45756, 5.47199)
         
-        var locationKamer3 = CLLocationCoordinate2DMake(51.43715, 5.46121)
+        let locationKamer3 = CLLocationCoordinate2DMake(51.43715, 5.46121)
         
-        var locationKamer4 = CLLocationCoordinate2DMake(51.43968, 5.48374)
+        let locationKamer4 = CLLocationCoordinate2DMake(51.43968, 5.48374)
         
         //var span = MKCoordinateSpanMake(0.08, 0.08)
         
@@ -56,8 +56,8 @@ class ZoekSlaapplekViewController: UIViewController, MKMapViewDelegate, CLLocati
         
         //mapView.setRegion(region, animated: true)
         
-        var annotation1 = MKPointAnnotation()
-        annotation1.setCoordinate(locationKamer1)
+        let annotation1 = MKPointAnnotation()
+        annotation1.coordinate = locationKamer1
         annotation1.title = "Title 1"
         annotation1.subtitle = "Subtitle 1"
         
@@ -68,18 +68,18 @@ class ZoekSlaapplekViewController: UIViewController, MKMapViewDelegate, CLLocati
         pinView?.rightCalloutAccessoryView = button1
         */
         
-        var annotation2 = MKPointAnnotation()
-        annotation2.setCoordinate(locationKamer2)
+        let annotation2 = MKPointAnnotation()
+        annotation2.coordinate = locationKamer2
         annotation2.title = "Title 2"
         annotation2.subtitle = "Subtitle 2"
         
-        var annotation3 = MKPointAnnotation()
-        annotation3.setCoordinate(locationKamer3)
+        let annotation3 = MKPointAnnotation()
+        annotation3.coordinate = locationKamer3
         annotation3.title = "Title1 3"
         annotation3.subtitle = "Subtitle3"
         
-        var annotation4 = MKPointAnnotation()
-        annotation4.setCoordinate(locationKamer4)
+        let annotation4 = MKPointAnnotation()
+        annotation4.coordinate = locationKamer4
         annotation4.title = "Title 4"
         annotation4.subtitle = "Subtitle 4"
         
@@ -100,11 +100,11 @@ class ZoekSlaapplekViewController: UIViewController, MKMapViewDelegate, CLLocati
         if view == nil {
             view = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
             view?.canShowCallout = true
-            var button = UIButton.buttonWithType(UIButtonType.DetailDisclosure) as UIButton // button with info sign in it
+            //var button = UIButton.buttonWithType(UIButtonType.DetailDisclosure) as UIButton // button with info sign in it
             
-            view.rightCalloutAccessoryView = button
+            //view.rightCalloutAccessoryView = button
             
-            //view?.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
+            view?.rightCalloutAccessoryView = UIButton(type: .DetailDisclosure)
         } else {
             view?.annotation = annotation
         }
@@ -184,6 +184,12 @@ class ZoekSlaapplekViewController: UIViewController, MKMapViewDelegate, CLLocati
         print("Errors: " + error.localizedDescription)
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if(segue.identifier == "SegueResultaat"){
+            let svc = segue.destinationViewController as! ResultaatViewController
+            svc.plaatsnaam = tbPlaatsnaam.text
+        }
+    }
 
     /*
     // MARK: - Navigation

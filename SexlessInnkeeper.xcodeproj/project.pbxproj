@@ -41,6 +41,7 @@
 		F59D2B481BBD6A8300F78C62 /* SexlessInnkeeperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59D2B471BBD6A8300F78C62 /* SexlessInnkeeperTests.swift */; };
 		F5C1C0031BC6B9EE00BC0781 /* ZoekSlaapplekViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C1C0021BC6B9EE00BC0781 /* ZoekSlaapplekViewController.swift */; };
 		F5C1C0091BC6BF3D00BC0781 /* PlaatsAanbodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C1C0081BC6BF3D00BC0781 /* PlaatsAanbodViewController.swift */; };
+		F5E9090C1BD8EA9D00B10719 /* ResultaatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E9090B1BD8EA9D00B10719 /* ResultaatViewController.swift */; };
 		F5FB2A0D1BCEBB9500B7C20C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5FB2A0C1BCEBB9500B7C20C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -93,6 +94,7 @@
 		F59D2B471BBD6A8300F78C62 /* SexlessInnkeeperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexlessInnkeeperTests.swift; sourceTree = "<group>"; };
 		F5C1C0021BC6B9EE00BC0781 /* ZoekSlaapplekViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoekSlaapplekViewController.swift; sourceTree = "<group>"; };
 		F5C1C0081BC6BF3D00BC0781 /* PlaatsAanbodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaatsAanbodViewController.swift; sourceTree = "<group>"; };
+		F5E9090B1BD8EA9D00B10719 /* ResultaatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultaatViewController.swift; sourceTree = "<group>"; };
 		F5FB2A0C1BCEBB9500B7C20C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -193,6 +195,7 @@
 				F54CD49A1BBE946400166426 /* BeoordelingAccount.swift */,
 				F5C1C0021BC6B9EE00BC0781 /* ZoekSlaapplekViewController.swift */,
 				F5C1C0081BC6BF3D00BC0781 /* PlaatsAanbodViewController.swift */,
+				F5E9090B1BD8EA9D00B10719 /* ResultaatViewController.swift */,
 			);
 			path = SexlessInnkeeper;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 		F59D2B211BBD6A8200F78C62 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Fontys;
 				TargetAttributes = {
@@ -340,6 +344,7 @@
 				F5C1C0031BC6B9EE00BC0781 /* ZoekSlaapplekViewController.swift in Sources */,
 				F54CD4911BBE6F4200166426 /* Beoordeling.swift in Sources */,
 				F54CD48F1BBE6F2B00166426 /* Account.swift in Sources */,
+				F5E9090C1BD8EA9D00B10719 /* ResultaatViewController.swift in Sources */,
 				F54CD4971BBE840800166426 /* RegistreerViewController.swift in Sources */,
 				F59D2B2F1BBD6A8200F78C62 /* AppDelegate.swift in Sources */,
 				F54CD49B1BBE946400166426 /* BeoordelingAccount.swift in Sources */,
