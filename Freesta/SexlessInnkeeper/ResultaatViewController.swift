@@ -21,8 +21,6 @@ class ResultaatViewController: UIViewController {
     
     @IBOutlet weak var lblOmschrijving1: UILabel!
     
-    @IBOutlet weak var nbTitel: UINavigationItem!
-    
     var plaatsnaam: String!
     
     override func viewDidLoad() {
@@ -40,10 +38,14 @@ class ResultaatViewController: UIViewController {
         
 */
         
-        nbTitel.title = plaatsnaam
         
         let query = PFQuery(className:"Slaapplek")
-        query.whereKey("Plaatsnaam", equalTo: plaatsnaam)
+        
+        if let plaatsnaam2 = plaatsnaam {
+            query.whereKey("Plaatsnaam", equalTo: plaatsnaam2)
+        }
+        
+        
         query.findObjectsInBackgroundWithBlock {(NSArray objects, NSError error) -> Void in
             
             

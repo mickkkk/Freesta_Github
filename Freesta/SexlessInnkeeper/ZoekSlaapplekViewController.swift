@@ -17,8 +17,6 @@ class ZoekSlaapplekViewController: UIViewController, MKMapViewDelegate, CLLocati
     
     @IBOutlet weak var tbPlaatsnaam: UITextField!
     
-    @IBOutlet weak var lblAdres: UILabel!
-    
     @IBOutlet weak var mapView: MKMapView!
     
     @IBAction func btnZoekSlaapplek(sender: UIButton) {
