@@ -342,7 +342,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cmB-5u-eCA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2876" y="732"/>
+            <point key="canvasLocation" x="2876" y="620"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ywh-zn-6ol">
@@ -394,15 +394,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UOw-vT-vYT">
-                                <rect key="frame" x="50" y="431" width="500" height="31"/>
-                                <color key="backgroundColor" red="0.42352941179999998" green="0.19215686269999999" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
-                                <state key="normal" title="Ik heb al een account!">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -414,12 +405,9 @@
                             <constraint firstItem="xW8-4y-llR" firstAttribute="leading" secondItem="Wff-g1-qzz" secondAttribute="leading" constant="50" id="Hfp-a8-ctn"/>
                             <constraint firstItem="6Xk-cX-Qpa" firstAttribute="leading" secondItem="Wff-g1-qzz" secondAttribute="leading" constant="50" id="IUN-Ju-mOO"/>
                             <constraint firstAttribute="trailing" secondItem="a8F-Xc-svN" secondAttribute="trailing" constant="50" id="Ige-xA-DL1"/>
-                            <constraint firstAttribute="trailing" secondItem="UOw-vT-vYT" secondAttribute="trailing" constant="50" id="LCx-z1-7YA"/>
                             <constraint firstAttribute="trailing" secondItem="tdi-fl-cuo" secondAttribute="trailing" constant="50" id="LiC-Vr-hGv"/>
-                            <constraint firstItem="UOw-vT-vYT" firstAttribute="leading" secondItem="Wff-g1-qzz" secondAttribute="leading" constant="50" id="NHI-0a-Ppg"/>
                             <constraint firstItem="otC-tO-l6y" firstAttribute="leading" secondItem="Wff-g1-qzz" secondAttribute="leading" constant="50" id="R0n-tK-VkA"/>
                             <constraint firstItem="AkU-3W-Q10" firstAttribute="top" secondItem="xW8-4y-llR" secondAttribute="bottom" constant="30" id="RPV-P5-GvV"/>
-                            <constraint firstItem="UOw-vT-vYT" firstAttribute="top" secondItem="AkU-3W-Q10" secondAttribute="bottom" constant="20" id="TzX-gr-aoo"/>
                             <constraint firstAttribute="trailing" secondItem="aEF-eY-3xy" secondAttribute="trailing" constant="50" id="YuS-am-5ox"/>
                             <constraint firstItem="AkU-3W-Q10" firstAttribute="leading" secondItem="Wff-g1-qzz" secondAttribute="leading" constant="50" id="Z12-hT-iVx"/>
                             <constraint firstItem="a8F-Xc-svN" firstAttribute="top" secondItem="GZh-vU-iag" secondAttribute="bottom" constant="50" id="ZJS-hK-zqH"/>
@@ -435,7 +423,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gd7-YN-aLI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1265" y="640"/>
+            <point key="canvasLocation" x="1358" y="620"/>
         </scene>
         <!--Plaats Aanbod View Controller-->
         <scene sceneID="8XN-WD-yCO">
@@ -489,14 +477,6 @@
                                     <action selector="btnPlaatsAanbod:" destination="7eA-ca-o5o" eventType="touchUpInside" id="GQa-zN-rd1"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L8U-x2-NVg">
-                                <rect key="frame" x="50" y="540" width="220" height="30"/>
-                                <color key="backgroundColor" red="0.42352941179999998" green="0.19215686269999999" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Ik wil een slaapplek zoeken!">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Beschikbaar vanaf:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="407-Lf-rLg">
                                 <rect key="frame" x="30" y="270" width="146.5" height="20.5"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
@@ -514,15 +494,12 @@
                         <constraints>
                             <constraint firstItem="q4j-7B-IY1" firstAttribute="top" secondItem="GY4-Iz-n8J" secondAttribute="bottom" constant="20" id="2xt-L7-exj"/>
                             <constraint firstItem="rYo-oV-xwc" firstAttribute="leading" secondItem="pGv-W0-nps" secondAttribute="leading" constant="50" id="4Kx-hM-Z1g"/>
-                            <constraint firstItem="L8U-x2-NVg" firstAttribute="top" secondItem="BCV-Fc-JOe" secondAttribute="bottom" constant="20" id="4dM-md-AaJ"/>
                             <constraint firstItem="GY4-Iz-n8J" firstAttribute="top" secondItem="3mk-76-L7z" secondAttribute="bottom" constant="50" id="5gF-U6-B6Z"/>
                             <constraint firstItem="rYo-oV-xwc" firstAttribute="top" secondItem="407-Lf-rLg" secondAttribute="bottom" constant="10" id="7JD-Aj-y80"/>
                             <constraint firstItem="q4j-7B-IY1" firstAttribute="leading" secondItem="pGv-W0-nps" secondAttribute="leading" constant="50" id="A2X-Qf-erc"/>
                             <constraint firstAttribute="trailing" secondItem="I1v-3N-9qy" secondAttribute="trailing" constant="50" id="DLd-SV-KFw"/>
                             <constraint firstItem="BCV-Fc-JOe" firstAttribute="top" secondItem="rYo-oV-xwc" secondAttribute="bottom" constant="20" id="H8k-Xk-arH"/>
-                            <constraint firstAttribute="trailing" secondItem="L8U-x2-NVg" secondAttribute="trailing" constant="50" id="IC7-AV-Tka"/>
                             <constraint firstAttribute="trailing" secondItem="q4j-7B-IY1" secondAttribute="trailing" constant="50" id="P1c-11-fUf"/>
-                            <constraint firstItem="L8U-x2-NVg" firstAttribute="leading" secondItem="pGv-W0-nps" secondAttribute="leading" constant="50" id="SPB-89-bP2"/>
                             <constraint firstItem="407-Lf-rLg" firstAttribute="leading" secondItem="pGv-W0-nps" secondAttribute="leading" constant="50" id="UMf-HS-319"/>
                             <constraint firstItem="GY4-Iz-n8J" firstAttribute="leading" secondItem="pGv-W0-nps" secondAttribute="leading" constant="50" id="aiy-Jy-WLx"/>
                             <constraint firstItem="wEH-Cf-Rq9" firstAttribute="centerX" secondItem="pGv-W0-nps" secondAttribute="centerX" id="dNx-rg-gcv"/>
@@ -550,7 +527,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DTm-bz-r8y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1973" y="620"/>
+            <point key="canvasLocation" x="2088" y="620"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="1L7-H2-r6S">
@@ -568,7 +545,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9eu-Iu-v1f" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4068" y="-165"/>
+            <point key="canvasLocation" x="3616" y="-206"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="EUQ-jY-S2M">
