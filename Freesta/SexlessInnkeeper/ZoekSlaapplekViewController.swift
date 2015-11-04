@@ -86,9 +86,9 @@ class ZoekSlaapplekViewController: UIViewController, MKMapViewDelegate, CLLocati
         mapView.addAnnotation(annotation3)
         mapView.addAnnotation(annotation4)
 
-
-
-        
+        // Keyboard actions
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillShow:"), name: UIKeyboardWillShowNotification, object: nil)
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: Selector("keyboardWillHide:"), name: UIKeyboardWillHideNotification, object: nil)
     }
     
     
@@ -198,5 +198,17 @@ class ZoekSlaapplekViewController: UIViewController, MKMapViewDelegate, CLLocati
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func keyboardWillShow(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.CGRectValue() {
+            self.view.frame.origin.y -= keyboardSize.height
+        }
+    }
+    
+    func keyboardWillHide(notification: NSNotification) {
+        if let keyboardSize = (notification.userInfo?[UIKeyboardFrameBeginUserInfoKey] as? NSValue)?.CGRectValue() {
+            self.view.frame.origin.y += keyboardSize.height
+        }
+    }
 
 }
