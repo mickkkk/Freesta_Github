@@ -25,22 +25,11 @@ class ResultaatViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
-        
-        /*
-        if let SlaapplekObjects = objects as? [PFObject] {
-            for Slaapplek in SlaapplekObjects {
-            // Use staff as a standard PFObject now. e.g.
-            let plaatsnaam = Slaapplek.objectForKey("Plaatsnaam")
-            }
-        }
-
-        
-*/
         
         
         let query = PFQuery(className:"Slaapplek")
-        
+        // Hier zorg ik ervoor dat de plaatsnaam nooit leeg is. Ik pak de optional Plaatsnaam uit.
+        // Als hij wel leeg is slaat hij de code over, zodat hij niet crasht.
         if let plaatsnaam2 = plaatsnaam {
             query.whereKey("Plaatsnaam", equalTo: plaatsnaam2)
         }
@@ -51,11 +40,6 @@ class ResultaatViewController: UIViewController {
             
             
             if error == nil {
-                //var i : Int = 1
-                // The find succeeded.
-                //print("Successfully retrieved \(objects!.count) scores.")
-                // Do something with the found objects
-                // if let SlaapplekObjects = objects as? [PFObject]! {
                 if let SlaapplekObjects = objects{
                     for Slaapplek in SlaapplekObjects {
                 
@@ -74,44 +58,13 @@ class ResultaatViewController: UIViewController {
                         let omschrijvingLet = Slaapplek.objectForKey("Omschrijving")
                         let omschrijvingString:String = omschrijvingLet as! String
                         self.lblOmschrijving1.text = omschrijvingString
-                        
-                        /*
-                        let datumLet = Slaapplek.objectForKey("Datum")
-                        var datumString:String = datumLet as String
-                        self.lblDatum1.text = datumString
-                        */
-
-                    }
+                        }
                 }
             }
             else{
             print("Error in retrieving \(error)")
             }
         }
-
-
-        /*
-        
-        var query = PFQuery(className:"GameScore")
-        query.whereKey("playerName", equalTo:"Sean Plott")
-        query.findObjectsInBackgroundWithBlock {
-            (objects: [PFObject]?, error: NSError?) -> Void in
-            
-            if error == nil {
-                // The find succeeded.
-                print("Successfully retrieved \(objects!.count) scores.")
-                // Do something with the found objects
-                if let objects = objects as? [PFObject] {
-                    for object in objects {
-                        self.lblResultaat.text == object["Plaatsnaam"] as String!
-                    }
-                }
-            } else {
-                // Log details of the failure
-                print("Error: \(error!) \(error!.userInfo!)")
-            }
-        }
-*/
     }
     
 }
