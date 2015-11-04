@@ -16,7 +16,6 @@ class BeoordelingSlaapplek : Beoordeling
     
     init(beoordelingsNr:Int32, datumBeoordeling:datum, aantalSterren:Int32, omschrijving:String, accountBeoordelaar:Int32, beoordeeldSlaapplek:Int32)
     {
-        //self.name = name!
         self.accountBeoordelaar = accountBeoordelaar
         self.beoordeeldSlaapplek = beoordeeldSlaapplek
         

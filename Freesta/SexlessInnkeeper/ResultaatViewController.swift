@@ -40,8 +40,11 @@ class ResultaatViewController: UIViewController {
             
             
             if error == nil {
+                // Hier zorg ik ervoor dat objectes nooit leeg is. Ik pak de optional objects uit.
+                // Als hij wel leeg is slaat hij de code over, zodat hij niet crasht.
                 if let SlaapplekObjects = objects{
                     for Slaapplek in SlaapplekObjects {
+                        // Hier set in de values uit de database in de labels.
                 
                         let plaatsnaamLet = Slaapplek.objectForKey("Plaatsnaam")
                         let plaatsnaamString:String = plaatsnaamLet as! String

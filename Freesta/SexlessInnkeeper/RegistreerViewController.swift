@@ -11,19 +11,6 @@ import Parse
 
 class RegistreerViewController: UIViewController {
 
-    @IBOutlet weak var tbGebruikersnaam: UITextField!
-    
-    @IBOutlet weak var tbWachtwoord: UITextField!
-    
-    @IBOutlet weak var tbHerhaalWachtwoord: UITextField!
-    
-    @IBOutlet weak var tbNaam: UITextField!
-    
-    @IBOutlet weak var tbWoonplaats: UITextField!
-    
-    @IBOutlet weak var tbLeeftijd: UITextField!
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -33,13 +20,6 @@ class RegistreerViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-    }
-    
-    @IBAction func btnRegistreer(sender: UIButton) {
-    }
-
-    @IBAction func btnLogin(sender: UIButton) {
-        self.dismissViewControllerAnimated(true , completion: nil)
     }
     /*
     // MARK: - Navigation

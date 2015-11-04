@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SexlessInnkeeper/PlaatsAanbodViewController.swift"
-            timestampString = "467056489.279792"
+            timestampString = "468340211.116368"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
             landmarkName = "btnPlaatsAanbod(_:)"
             landmarkType = "5">
          </BreakpointContent>

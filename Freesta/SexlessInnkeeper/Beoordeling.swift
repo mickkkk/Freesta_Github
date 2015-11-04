@@ -18,7 +18,6 @@ class Beoordeling
     
     init(beoordelingsNr:Int32, datumBeoordeling:datum, aantalSterren:Int32, omschrijving:String)
     {
-        //self.name = name!
         self.beoordelingsNr = beoordelingsNr
         self.datumBeoordeling = datumBeoordeling
         self.aantalSterren = aantalSterren

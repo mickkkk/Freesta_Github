@@ -21,7 +21,6 @@ class Slaapplek
     
     init(slaapplekNr:Int32, accountNr:Int32, plaats:String, grootteInMeters:Int32, aantalPersonen:Int32, omschrijving:String, datumAankomst:datum)
     {
-        //self.name = name!
         self.slaapplekNr = slaapplekNr
         self.accountNr = accountNr
         self.plaats = plaats

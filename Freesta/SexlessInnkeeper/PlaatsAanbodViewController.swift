@@ -28,15 +28,6 @@ class PlaatsAanbodViewController: UIViewController {
         super.viewDidLoad()
         
         lblAanbodToegevoegd.hidden = true
-
-        /*
-        let testObject = PFObject(className: "TestObject")
-        testObject["foo"] = "bar"
-        testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
-            println("Object has been saved.")
-        }
-*/
-        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
@@ -46,7 +37,8 @@ class PlaatsAanbodViewController: UIViewController {
     
     @IBAction func btnPlaatsAanbod(sender: UIButton) {
         
-        var textDatum = dpDatum.date
+        let textDatum = dpDatum.date
+        // ik maak een slaapplek aan.
         
         let Slaapplek = PFObject(className: "Slaapplek")
         Slaapplek["Plaatsnaam"] = tbPlaatsnaam.text
@@ -55,7 +47,7 @@ class PlaatsAanbodViewController: UIViewController {
         Slaapplek["Omschrijving"] = tbOmschrijving.text
         Slaapplek["Datum"] = textDatum
         
-        
+        // hier schrijf ik de slaapplek weg naar de database.
         Slaapplek.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
             self.lblAanbodToegevoegd.hidden = false
         

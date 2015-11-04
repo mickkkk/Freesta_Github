@@ -23,7 +23,6 @@ class Account
     
     init(accountNr:Int32, gebruikersnaam:String, wachtwoord:String, naam:String, woonplaats:String, leeftijd:Int32, lidSinds:datum, punten:Int32, aantalSterren:Int32)
     {
-        //self.name = name!
         self.accountNr = accountNr
         self.gebruikersnaam = gebruikersnaam
         self.wachtwoord = wachtwoord
